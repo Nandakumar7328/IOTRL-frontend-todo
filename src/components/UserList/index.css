@@ -1,0 +1,75 @@
+.li-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    height: 90px;
+    align-items: center;
+    box-shadow: #0d0d0e 0px 0px 1px 0px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.avathar-letter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.color1{
+    background-color: #32a852;
+}
+
+.color3{
+    background-color: #4954b8;
+}
+
+.color4{
+    background-color: #c640ff;
+}
+
+.color5{
+    background-color: #e8502a;
+}
+
+.color6{
+    background-color: #20e33d;
+}
+.color2{
+    background-color: #a5e320;
+}
+
+.avathar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-letter{
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.username-para{
+    color: #171b36;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.delete-icon{
+   font-size: 50px;
+   
+}
+.btn-delete-user{
+    background-color: transparent;
+    outline: none;
+    border-width: 0px;
+    cursor: pointer;
+}

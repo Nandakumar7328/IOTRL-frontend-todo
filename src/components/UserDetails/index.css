@@ -1,0 +1,57 @@
+.task-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    min-height: 85vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.name-task-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    
+}
+
+.btn-add-task{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    border-width: 0px;
+    border-radius: 8px;
+}
+.avatar-name-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.avatar-resize{
+    width: 50px;
+    margin-right: 10px;
+}
+.heading{
+    color: #171b36;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-container-task{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: #4c5052 0px 0px 1px 0px;
+    padding: 15px;
+    align-self: flex-end;
+}

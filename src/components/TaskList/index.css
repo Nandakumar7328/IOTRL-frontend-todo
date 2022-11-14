@@ -1,0 +1,93 @@
+.li-sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.li-container-task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95vw;
+    height: 90px;
+    align-items: center;
+    align-self: center;
+    
+    box-shadow: #0d0d0e 0px 0px 1px 0px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.red{
+    color: rgb(207, 67, 67);
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.green{
+    color: green;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.bg-container-pop{
+    background-color: #00111211;
+    height: 200px;
+    width: 300px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.btn-container-cancell-delte{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-cancel-pop{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid green;
+    border-radius: 6px;
+    padding: 7px;
+    color: green;
+    font-family: "Roboto";
+    width: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-delete-pop{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #f5071f;
+    border-radius: 6px;
+    padding: 7px;
+    color: #f5071f;
+    font-family: "Roboto";
+    width: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.para-pop{
+    color: black;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.each-task-para{
+    color: #171b36;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
